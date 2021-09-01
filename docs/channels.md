@@ -3,6 +3,9 @@
 
 > A channel is a synchronisation concept which supports passing data between producers and consumers, typically concurrently. One or many producers can write data into the channel, which are then read by one or many consumers.
 
+> Released in May 2018
+
+> Have one or more producers and one or more consumers
 
 > Logically a channel is effectively an efficient, thread-safe queue.
 
@@ -11,6 +14,12 @@
 ![](./Pics/Channels-Diagram.png)
 
 - Steve Says that the primary usage of channels had been within queue processing worker service.
+
+## Why We Use Channels
+
+- Thread Safe Data Transfer
+- Using Channels to transfer data between Hosted and Worker services or the Same type of Services 
+- Improve Response Time
 
 
 ## Creating a channel

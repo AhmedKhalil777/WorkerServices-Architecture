@@ -14,7 +14,7 @@
 |__Windows Services__|.Net framework background service|
 |||
 
-## Basic Time Delay Architecture : 
+## Basic  Architecture : 
 - The simplest way to build the architure is to KISS (Keep It Simple Stubid) using the basic template of Microsoft by identifying business and other concerns at the worker class.
 - The `ExecuteAsync()` must implement operations of the worker, contain all functionality of the service operations 
 
@@ -72,12 +72,17 @@
 ![simple arch](./Pics/SimpleArch1.PNG)
 
 - The fact of creating this architecture is to keep the project simple enough to understand and develop, but based on many reasons like piplining and scheduling concens and events
+- The previous example implemented with time delay strategy for the process.
+- You can find the Queuing Worker services in [link](./queuingWorkerServices.md)
+
+
 ---
 
-## Queuing Worker Services Architecture
+## Clean Worker Services Architecture
 
 
 
+![](./Pics/CleanArch.PNG)
 
 
 
